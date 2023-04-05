@@ -2,7 +2,7 @@ name: rq-sigin-sync
 
 on:
   workflow_dispatch:
-  schedule:
+ # schedule:
   #  - cron: '30 9,10,16 * * *'
 
 env:
