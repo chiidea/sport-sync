@@ -2,7 +2,7 @@ name: garmin-sports-sync
 
 on:
   workflow_dispatch:
-  schedule
+  schedule:
   #北京时间+8 
     - cron: '0 1-5,7,9-12,14 * * 0,6'
     - cron: '0 4,12 * * 1,2,3,4,5'
