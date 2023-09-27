@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
   schedule:
   #北京时间+8 
-    - cron: '0 1-5,7,9-12,14 * * 0,6'
-    - cron: '0 4,12 * * 1,2,3,4,5'
+  # - cron: '0 1-5,7,9-12,14 * * 0,6'
+  # - cron: '0 4,12 * * 1,2,3,4,5'
 env:
   GITHUB_NAME: chiidea
   GITHUB_EMAIL: xmzhuanghai@gmail.com
-  AESKEY: ${{ secrets.AESKEY }}
+  AESKEY: ${{ secrets.#}}
   SOURCE_GARMIN_AUTH_DOMAIN: ${{ secrets.SOURCE_GARMIN_AUTH_DOMAIN }}
   SOURCE_GARMIN_EMAIL: ${{ secrets.SOURCE_GARMIN_EMAIL }}
   SOURCE_GARMIN_PASSWORD: ${{ secrets.SOURCE_GARMIN_PASSWORD }}
